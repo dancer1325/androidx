@@ -1,38 +1,47 @@
 # Android Jetpack
 
-[![Revved up by Develocity](https://img.shields.io/badge/Revved%20up%20by-Develocity-06A0CE?logo=Gradle&labelColor=02303A)](https://ge.androidx.dev)
+[Develocity of the project](https://ge.androidx.dev)
 
-Jetpack is a suite of libraries, tools, and guidance to help developers write high-quality apps easier. These components help you follow best practices, free you from writing boilerplate code, and simplify complex tasks, so you can focus on the code you care about.
-
-Jetpack comprises the `androidx.*` package libraries, unbundled from the platform APIs. This means that it offers backward compatibility and is updated more frequently than the Android platform, making sure you always have access to the latest and greatest versions of the Jetpack components.
-
-Our official AARs and JARs binaries are distributed through [Google Maven](https://maven.google.com).
-
-You can learn more about using it from [Android Jetpack landing page](https://developer.android.com/jetpack).
+* Jetpack
+  * == libraries + tools + guide / 
+    * help you
+      * follow best practices,
+      * reduce writing boilerplate code,
+      * simplify complex tasks
+  * contains
+    * `androidx.*` package libraries /
+      * unbundled | platform APIs ->
+        * backward compatibility
+        * updated MORE frequently than the Android platform
+  * see [Android Jetpack landing page](https://developer.android.com/jetpack)
+  * official AARs and JARs binaries -- are distributed through -- [Google Maven](https://maven.google.com)
 
 # Contribution Guide
 
-For contributions via GitHub, see the [GitHub Contribution Guide](CONTRIBUTING.md).
-
-Note: The contributions workflow via GitHub is currently experimental - only contributions to the following projects are being accepted at this time:
-* [Activity](activity)
-* [AppCompat](appcompat)
-* [Biometric](biometric)
-* [Collection](collection)
-* [Compose Runtime](compose/runtime)
-* [Core](core)
-* [DataStore](datastore)
-* [Fragment](fragment)
-* [Lifecycle](lifecycle)
-* [Navigation](navigation)
-* [Paging](paging)
-* [Room](room)
-* [WorkManager](work)
+* For contributions via GitHub, see the [GitHub Contribution Guide](CONTRIBUTING.md).
+* contributions workflow -- via -- GitHub
+  * experimental
+  * projects / accept contributions
+    * [Activity](activity)
+    * [AppCompat](appcompat)
+    * [Biometric](biometric)
+    * [Collection](collection)
+    * [Compose Runtime](compose/runtime)
+    * [Core](core)
+    * [DataStore](datastore)
+    * [Fragment](fragment)
+    * [Lifecycle](lifecycle)
+    * [Navigation](navigation)
+    * [Paging](paging)
+    * [Room](room)
+    * [WorkManager](work)
 
 ## Code Review Etiquette
-When contributing to Jetpack, follow the [code review etiquette](code-review.md).
+
+* follow the [code review etiquette](code-review.md).
 
 ## Accepted Types of Contributions
+* TODO:
 * Bug fixes - needs a corresponding bug report in the [Android Issue Tracker](https://issuetracker.google.com/issues/new?component=192731&template=842428)
 * Each bug fix is expected to come with tests
 * Fixing spelling errors
@@ -44,8 +53,7 @@ We **are not** currently accepting new modules.
 
 ## Checking Out the Code
 
-Head over to the [onboarding docs](docs/onboarding.md) to learn more about getting set up and the
-development workflow!
+* see [onboarding docs](docs/onboarding.md)
 
 ### Continuous integration
 [Our continuous integration system](https://ci.android.com/builds/branches/aosp-androidx-main/grid?) builds all in progress (and potentially unstable) libraries as new changes are merged. You can manually download these AARs and JARs for your experimentation.
