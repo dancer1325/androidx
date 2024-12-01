@@ -1,14 +1,16 @@
 ## Platform compatibility API patterns {#platform-compatibility-apis}
 
-NOTE For all library APIs that wrap or provide parity with platform APIs, we
-prefer to follow modern API guidelines; however, developers *may* choose to
-prioritize parity with the platform APIs over adherence to modern guidelines.
-For example, if the platform API being wrapped has incorrect `Executor` and
-`Callback` ordering according to the API Guidelines, the corresponding library
-API *should* re-order the arguments.
+* goal
+  * | library APIs / wrap OR provide parity with platform APIs
+    * recommendations
+      * follow modern API guideline
+        * developers *MAY* choose to prioritize parity with the platform APIs vs adherence to modern guidelines
+          * _Example:_ if the platform API being wrapped has incorrect `Executor` &`Callback` ordering / according to the API Guidelines -> corresponding library
+        API -- *should* re-order the -- arguments
 
 ### Static shims (ex. [ViewCompat](https://developer.android.com/reference/androidx/core/view/ViewCompat)) {#static-shim}
 
+* TODO:
 When to use?
 
 *   Platform class exists at module's `minSdkVersion`
