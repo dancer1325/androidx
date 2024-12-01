@@ -1,11 +1,12 @@
 ## Resources {#resources}
 
-Generally, follow the official Android guidelines for
-[app resources](https://developer.android.com/guide/topics/resources/providing-resources).
-Special guidelines for library resources are noted below.
+* follow 
+  * | generally, [official Android guidelines for app resources](https://developer.android.com/guide/topics/resources/providing-resources)
+  * SPECIAL guidelines for library resources
+    * 👀this document 👀
 
 ### Defining new resources
-
+* TODO:
 Libraries may define new value and attribute resources using the standard
 application directory structure used by Android Gradle Plugin:
 
