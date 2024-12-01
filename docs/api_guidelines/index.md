@@ -2,20 +2,12 @@
 
 [TOC]
 
-This guide is intended to help Jetpack library developers understand best
-practices for designing and evolving their libraries.
+* goal
+  * best practices about library development
 
-It is an addendum to
-s.android.com/api-guidelines,
-which covers standard and practices for designing platform APIs, and it extends
-beyond API guidelines to cover implementation details that are relevant to
-clients of Jetpack libraries.
-
-All platform API design guidelines also apply to Jetpack libraries, with any
-additional guidelines or exceptions noted in this document. Jetpack libraries
-also follow
-[explicit API mode](https://kotlinlang.org/docs/reference/whatsnew14.html#explicit-api-mode-for-library-authors)
-for Kotlin libraries.
+* Jetpack libraries
+  * ALSO follow these guidelines
+  * | Kotlin libraries, ALSO follow [explicit API mode](https://kotlinlang.org/docs/reference/whatsnew14.html#explicit-api-mode-for-library-authors)
 
 <!--#include file="/company/teams/androidx/api_guidelines/modules.md"-->
 
