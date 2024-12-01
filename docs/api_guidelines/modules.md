@@ -2,22 +2,22 @@
 
 ### Packaging and naming {#module-naming}
 
-Java packages within Jetpack follow the format `androidx.<feature-name>`. All
-classes within a feature's artifact must reside within this package, and may
-further subdivide into `androidx.<feature-name>.<layer>` using standard Android
-layers (app, widget, etc.) or layers specific to the feature.
+* `androidx.<feature-name>`
+  * Jetpack's Java packages format
+  * `androidx.<feature-name>.<layer>`
+    * subdivide | standard Android layers (app, widget, etc.) OR layers feature-specific
 
-Maven specifications use the groupId format `androidx.<feature-name>` and
-artifactId format `<feature-name>` to match the Java package. For example,
-`androidx.core.role` uses the Maven spec `androidx.core:core-role`.
+* `androidx.<feature-name>`
+  * Maven's groupId format
+  * Reason: 🧠`<feature-name>` -- to match the -- Java package🧠
+  * _Example:_ `androidx.core.role` -- uses the Maven spec -- `androidx.core:core-role`
 
-Sub-features that can be separated into their own artifact are recommended to
-use the following formats:
+* | Sub-features
+  * Java package: `androidx.<feature-name>.<sub-feature>.<layer>`
+  * Maven groupId: `androidx.<feature-name>`
+  * Maven artifactId: `<feature-name>-<sub-feature>`
 
--   Java package: `androidx.<feature-name>.<sub-feature>.<layer>`
--   Maven groupId: `androidx.<feature-name>`
--   Maven artifactId: `<feature-name>-<sub-feature>`
-
+* TODO:
 Gradle project names and directories follow the Maven spec format, substituting
 the project name separator `:` or directory separator `/` for the Maven
 separators `.` or `:`. For example, `androidx.core:core-role` would use project
