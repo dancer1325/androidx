@@ -2,17 +2,18 @@
 
 [TOC]
 
-This page describes how to set up your workstation to check out source code,
-make simple changes in Android Studio, and upload commits to Gerrit for review.
+* goal
+  * how to set up your workstation -- to -- 
+    * check out source code,
+    * make simple changes | Android Studio,
+    * upload commits | Gerrit
 
-This page does **not** cover best practices for the content of changes. Please
-see [Life of a Jetpack Feature](/docs/loaf.md) for details on
-creating and releasing a library or
-[API Guidelines](/docs/api_guidelines/index.md) for best
-practices regarding library development.
+* see 
+  * [API Guidelines](/docs/api_guidelines/index.md)
 
 ## Workstation setup {#setup}
 
+* TODO:
 This section will help you install the `repo` tool, which is used for Git branch
 and commit management. If you want to learn more about `repo`, see the
 [Repo Command Reference](https://source.android.com/setup/develop/repo).
