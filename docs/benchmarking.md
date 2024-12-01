@@ -2,22 +2,20 @@
 
 [TOC]
 
-The public documentation at
-[d.android.com/benchmark](http://d.android.com/benchmark) explains how to use
-the library - this page focuses on specifics to writing libraries in the
-AndroidX repo, and our continuous testing / triage process.
+* see [d.android.com/benchmark](http://d.android.com/benchmark)
+  * goal
+    * how to use the library
+      * write libraries | AndroidX repo
+      * continuous testing / triage process
 
-This page is for MICRO benchmarks measuring CPU performance of small sections of
-code. If you're looking for measuring startup or jank, see the guide for
-MACRObenchmarks [here](/docs/macrobenchmarking.md).
+* goal of this page
+  * MICRO benchmarks / measure CPU performance of small sections of code
+    * if you want to measure startup or jank -> see [MACRO benchmarks](macrobenchmarking.md)
 
-### Writing the benchmark
+## Writing the benchmark
 
-Benchmarks are just regular instrumentation tests! Just use the
-[`BenchmarkRule`](https://developer.android.com/reference/kotlin/androidx/benchmark/junit4/BenchmarkRule)
-provided by the library:
-
-<section class="tabs">
+* Benchmarks
+  * 👀== regular instrumentation tests / use [`BenchmarkRule`](https://developer.android.com/reference/kotlin/androidx/benchmark/junit4/BenchmarkRule)👀
 
 #### Kotlin {.new-tab}
 
@@ -64,10 +62,9 @@ public class ViewBenchmark {
 }
 ```
 
-</section>
-
 ## Project structure
 
+* TODO:
 As in the public documentation, benchmarks in the AndroidX repo are test-only
 library modules. Differences for AndroidX repo:
 
