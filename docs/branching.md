@@ -4,14 +4,13 @@
 
 ## Single development branch [`aosp/androidx-main`]
 
-All feature development occurs in the public main development branch of the
-Android Open Source Project: `androidx-main`. This branch serves as the central
-location and source of truth for all AndroidX library source code. All `alpha`
-and `beta` version work -- development, builds, and releases -- will be done
-ONLY in this branch.
+* `androidx-main`
+  * public main development branch
+  * source of truth -- for -- ALL AndroidX library source code
+  * ALL feature development -- MUST be branched from -- this one
 
 ## Release branches [`aosp/androidx-\<feature\>-release`]
-
+* TODO:
 Release branches are used for stabilitization of a library and support of a
 previous stable release. With one development branch, this is how AndroidX
 provides support for the previous `rc` or stable version.
