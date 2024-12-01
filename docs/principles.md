@@ -4,16 +4,16 @@
 
 ## Ethos of Jetpack
 
-To create components, tools, and guidance that makes it quick and easy to build
-great Android apps, including contributions from Google and the open-source
-community.
+* create
+  * components,
+  * tools,
+  * guidance
+* contributions -- can come from --
+  * Google
+  * open-source community
 
 ## Core Principles of a Jetpack Library
-
-Jetpack libraries provide the following guarantees to Android Developers:
-
-_formatted as “Jetpack libraries are…” with sub-points “Libraries should…”_
-
+* TODO:
 ### 1. Optimized for external client adoption
 
 -   Libraries should work for first-party clients and may even have optional
