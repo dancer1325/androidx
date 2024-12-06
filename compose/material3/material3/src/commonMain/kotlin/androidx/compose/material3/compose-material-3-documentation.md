@@ -3,14 +3,24 @@
 Compose Material 3
 
 # Package androidx.compose.material3
+* == documentation for 
+  * types,
+  * properties,
+  * functions
+* 👀== [theming](#theming) + [components](#components) + [surfaces & layouts](#surfaces-and-layout) + [icons & text](#icons-and-text) 👀
+* allows
+  * building Jetpack Compose UIs -- with -- [Material Design 3](https://m3.material.io)
+* -- designed to be -- cohesive with Android 12
+  * visual style
+  * system UI
+* Material 3
+  * == updated theming + components + features to customize
+    * features to customize
+      * dynamic color
 
-Build Jetpack Compose UIs with <a href="https://m3.material.io" class="external" target="_blank">Material Design 3</a>, the next evolution of Material Design. Material 3 includes updated theming and components and Material You personalization features like dynamic color, and is designed to be cohesive with the new Android 12 visual style and system UI.
+    ![Material You image](https://developer.android.com/images/reference/androidx/compose/material3/material-you.png)
 
-![Material You image](https://developer.android.com/images/reference/androidx/compose/material3/material-you.png)
-
-In this page, you'll find documentation for types, properties, and functions available in the `androidx.compose.material3` package.
-
-For more information, check out <a href="https://developer.android.com/jetpack/compose/designsystems/material3" class="external" target="_blank">Material Design 3 in Compose</a>.
+* see [Material Design 3 in Compose](https://developer.android.com/jetpack/compose/designsystems/material3)
 
 ## Overview
 
@@ -132,4 +142,4 @@ For more information, check out <a href="https://developer.android.com/jetpack/c
 | **Icon** | [Icon] | M3 icon |
 | **Text** | [Text] | M3 text |
 
-Also check out the <a href="https://developer.android.com/reference/kotlin/androidx/compose/material/icons/package-summary" class="external" target="_blank">androidx.compose.material.icons package</a>.
+* see [androidx.compose.material.icons package](https://developer.android.com/reference/kotlin/androidx/compose/material/icons/package-summary)
