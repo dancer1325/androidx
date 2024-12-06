@@ -4,19 +4,29 @@ Compose UI
 
 # Package androidx.compose.ui.semantics
 
-In this page, you'll find documentation for types, properties, and functions available in the
-`androidx.compose.ui.semantics` package such as [semantics], [clearAndSetSemantics],
-[customActions], and [testTag].
+* == documentation for 
+  * types,
+  * properties,
+  * functions
+* _Example:_
+  * `semantics`,
+  * `clearAndSetSemantics`,
+  * `customActions`,
+  * `testTag`
 
-If you're looking for guidance instead, check out the following Compose guides:
-* <a href="https://developer.android.com/jetpack/compose/accessibility" class="external" target="_blank">Accessibility in Compose</a>.
-* <a href="https://developer.android.com/jetpack/compose/testing" class="external" target="_blank">Testing in Compose</a>.
+* see | Android documentation
+  * [Accessibility in Compose](https://developer.android.com/jetpack/compose/accessibility)
+  * [Testing in Compose](https://developer.android.com/jetpack/compose/testing)
 
 # Package androidx.compose.ui.viewinterop
 
-In this page, you'll find documentation for types, properties, and functions available in the
-`androidx.compose.ui.viewinterop` package such as [AndroidView].
+* == documentation for
+    * types,
+    * properties,
+    * functions
+* _Example:_
+  * `AndroidView`
 
-If you're looking for guidance instead, check out the following Compose guides:
-* <a href="https://developer.android.com/jetpack/compose/interop" class="external" target="_blank">Adopting Compose in your app</a>.
-* <a href="https://developer.android.com/jetpack/compose/interop/interop-apis" class="external" target="_blank">Interoperability APIs</a>.
+* see | Android documentation
+  * [Adopting Compose in your app](https://developer.android.com/jetpack/compose/interop)
+  * [Interoperability APIs](https://developer.android.com/jetpack/compose/interop/interop-apis)
