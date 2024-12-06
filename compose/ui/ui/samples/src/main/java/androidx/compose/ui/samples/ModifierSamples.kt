@@ -62,6 +62,7 @@ import kotlinx.coroutines.launch
 @Sampled
 @Composable
 fun ModifierUsageSample() {
+    // Add behavior | Text
     Text(
         "Hello, World!",
         Modifier.padding(16.dp) // Outer padding; outside background
