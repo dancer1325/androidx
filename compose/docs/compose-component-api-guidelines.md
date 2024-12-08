@@ -2,21 +2,23 @@
 
 ## Last updated: July 19, 2023
 
-Set of guidelines and recommendations for building scalable and user-friendly @Composable components.
+* goal
+  * set of guidelines and recommendations -- for -- building scalable & user-friendly `@Composable` components
 
-The requirement level of each of these guidelines is specified using the terms set forth in [RFC2119](https://www.ietf.org/rfc/rfc2119.txt) for each of the following developer audiences. If an audience is not specifically named with a requirement level for a guideline, it should be assumed that the guideline is OPTIONAL for that audience.
+* requirement level / EACH of these guidelines -- is specified following -- [RFC2119](https://www.ietf.org/rfc/rfc2119.txt)
 
-### Jetpack Compose framework development
+### Jetpack Compose framework (`androidx.compose`) development
 
-Contributions to the androidx.compose libraries and tools generally follow these guidelines to a strict degree to promote consistency, setting expectations and examples for consumer code at all layers.
+* follow these guidelines
 
 ### Library development based on Jetpack Compose
 
-It is expected and desired that an ecosystem of external libraries will come to exist that target Jetpack Compose, exposing a public API of `@Composable` functions and supporting types for consumption by apps and other libraries. While it is desirable for these libraries to follow these guidelines to the same degree as Jetpack Compose framework development would, organizational priorities and local consistency may make it appropriate for some purely stylistic guidelines to be relaxed.
+* follow previous mentioned guidelines / more relaxed
 
 ### App development based on Jetpack Compose
 
-App development is often subject to strong organizational priorities and norms and requirements to integrate with existing app architecture. This may call for not only stylistic deviation from these guidelines but structural deviation as well. Where possible, alternative approaches for app development will be listed in this document that may be more appropriate in these situations.
+* follow, NORMALLY, organizational priorities and norms
+    * Reason: 🧠App development -- is subject to -- strong organizational priorities and norms
 
 ## Table of content
 - [Note on vocabulary in this doc](#note-on-vocabulary-in-this-doc)
@@ -62,6 +64,7 @@ App development is often subject to strong organizational priorities and norms a
 
 ## Note on vocabulary in this doc
 
+* TODO:
 **@Composable component** - A @Composable function that returns `Unit` and emits the UI when it is composed in a hierarchy (later: component).
 
 **Developer** - a person who creates a component that is to be used by a user in an application or in another component library.
